@@ -8,7 +8,7 @@ const Home = () => {
     >
       <div className="ml-28 flex h-screen w-fit  flex-col justify-center ">
         <div className="p-6 backdrop-blur-sm ">
-          <h1 className=" py-6 text-5xl font-bold">
+          <h1 className=" py-6 text-4xl font-bold">
             Diego León Medina Velásquez
           </h1>
           {profesionHome.map((x) => {
