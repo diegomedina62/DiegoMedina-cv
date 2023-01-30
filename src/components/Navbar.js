@@ -6,10 +6,10 @@ const Navbar = () => {
       <div className="h-full basis-4/12">
         <img
           src={fotoPerfil}
-          className="mx-auto mt-4 w-2/3 rounded-full border-8"
+          className="mx-auto mt-4 w-1/2 rounded-full border-8"
           alt="Foto perfil Diego Medina"
         />
-        <h1 className="p-4 text-center text-4xl">Diego Medina</h1>
+        <h1 className="p-4 text-center text-4xl font-semibold">Diego Medina</h1>
       </div>
 
       <div className=" h-full basis-1/12">
@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className="flex h-full flex-col justify-evenly">
           {menuNavbar.map((x) => {
             return (
-              <li key={x.id} className=" text-center text-2xl">
+              <li key={x.id} className=" text-center text-2xl font-light">
                 {x.text}
               </li>
             );
