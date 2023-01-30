@@ -13,7 +13,7 @@ const Home = () => {
           </h1>
           {profesionHome.map((x) => {
             return (
-              <p className=" text-2xl font-semibold ">
+              <p key={x.id} className=" text-2xl font-semibold ">
                 {x.profesion}{' '}
                 <span className="text-xl italic">{x.subtexto}</span>
               </p>
