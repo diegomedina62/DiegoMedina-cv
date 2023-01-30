@@ -42,5 +42,33 @@ export const profesionHome = [
     subtexto: 'Matrícula No. 05202193010ANT',
   },
   { id: 32, profesion: 'Web Developer', subtexto: '' },
-  { id: 32, profesion: 'Data Architect', subtexto: '' },
+  { id: 33, profesion: 'Data Architect', subtexto: '' },
+];
+
+export const cargosAbout = [
+  {
+    id: 41,
+    cargo: 'Ingeniero Civil',
+    texto: `Soy ingeniero civil con experiencia en análisis de instrumentación
+  geotécnica en represas de ISAGEN (San Carlos, Miel, Jaguas).
+  Desarrollé una herramienta de procesamiento de datos para análisis
+  de riesgo, logrando optimizar aproximadamente en un 85% el tiempo de
+  trabajo de oficina.`,
+  },
+  {
+    id: 42,
+    cargo: 'Docente',
+    texto: `También soy docente en formación musical. Dicté cursos de cátedra a
+  grupos de hasta 40 personas, y en la actualidad doy clases
+  individuales, ayudando a mis alumnos a potenciar sus habilidades
+  musicales y superar dificultades técnicas y académicas.`,
+  },
+];
+
+export const skillsAbout = [
+  { id: 51, skill: 'Optimizar Procesos', texto: 'muestra de texto de skill' },
+  { id: 52, skill: 'Implementar codigos', texto: 'muestra de texto de skill' },
+  { id: 53, skill: 'Lenguajes', texto: 'muestra de texto de skill' },
+  { id: 54, skill: 'Comunicacion', texto: 'muestra de texto de skill' },
+  { id: 55, skill: 'Trabajo en Equipo', texto: 'muestra de texto de skill' },
 ];
