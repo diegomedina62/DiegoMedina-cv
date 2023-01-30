@@ -9,7 +9,7 @@ const Navbar = () => {
           className="mx-auto mt-4 w-1/2 rounded-full border-8"
           alt="Foto perfil Diego Medina"
         />
-        <h1 className="p-4 text-center text-4xl font-semibold">Diego Medina</h1>
+        <h1 className="p-4 text-center text-3xl font-medium">Diego Medina</h1>
       </div>
 
       <div className=" h-full basis-1/12">
