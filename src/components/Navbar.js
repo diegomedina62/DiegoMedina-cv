@@ -2,7 +2,7 @@ import fotoPerfil from '../images/fotoPerfilcuadrada.jpg';
 import { linksNavbar, menuNavbar } from '../data';
 const Navbar = () => {
   return (
-    <div className="fixed flex h-full w-80 flex-col bg-slate-100 px-1 shadow-md">
+    <section className="fixed flex h-full w-80 flex-col bg-slate-900 px-1 text-white shadow-md">
       <div className="h-full basis-4/12">
         <img
           src={fotoPerfil}
@@ -37,7 +37,7 @@ const Navbar = () => {
           })}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 export default Navbar;

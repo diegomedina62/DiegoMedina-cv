@@ -10,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="absolute inset-y-0 right-0 left-80 w-16  p-4">
+      <div className="absolute inset-y-0 right-0 left-80  p-4">
         <Home />
         <Objetivos />
         <Experiencia />

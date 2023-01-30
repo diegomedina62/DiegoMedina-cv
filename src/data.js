@@ -34,3 +34,13 @@ export const menuNavbar = [
   { id: 26, text: 'Idiomas', hre: '' },
   { id: 26, text: 'Extras', hre: '' },
 ];
+
+export const profesionHome = [
+  {
+    id: 31,
+    profesion: 'Ingeniero Civil',
+    subtexto: 'Matrícula No. 05202193010ANT',
+  },
+  { id: 32, profesion: 'Web Developer', subtexto: '' },
+  { id: 32, profesion: 'Data Architect', subtexto: '' },
+];
