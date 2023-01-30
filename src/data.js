@@ -28,10 +28,9 @@ export const linksNavbar = [
 export const menuNavbar = [
   { id: 21, text: 'Home', hre: '' },
   { id: 22, text: 'Acerca de', hre: '' },
-  { id: 23, text: 'Resumen / Skills', hre: '' },
-  { id: 24, text: 'Experiencia Profesional', hre: '' },
-  { id: 25, text: 'Formación', hre: '' },
-  { id: 26, text: 'Idiomas', hre: '' },
+  { id: 23, text: 'Experiencia Profesional', hre: '' },
+  { id: 24, text: 'Formación', hre: '' },
+  { id: 25, text: 'Idiomas', hre: '' },
   { id: 26, text: 'Extras', hre: '' },
 ];
 
@@ -59,9 +58,14 @@ export const cargosAbout = [
     id: 42,
     cargo: 'Docente',
     texto: `También soy docente en formación musical. Dicté cursos de cátedra a
-  grupos de hasta 40 personas, y en la actualidad doy clases
+  grupos de hasta 40 personas, y en la actualidad dicto clases
   individuales, ayudando a mis alumnos a potenciar sus habilidades
   musicales y superar dificultades técnicas y académicas.`,
+  },
+  {
+    id: 43,
+    cargo: 'Programador',
+    texto: `Soy programador web en FrontEnd usando React y en Backend usando Node.js, con fines a desarrollar aplicaciones de manejo y analisis de datos. Uso Python para el tratamiento y analisis de datos y frameworks como D3.js y Seaborn y MatplotLib para la presentacion de resultados`,
   },
 ];
 

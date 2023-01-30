@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <h3 className="ml-16">Habilidades</h3>
+        <h3 className="">Habilidades</h3>
         <ul className="mx-auto mt-4 grid w-10/12 grid-cols-3 justify-evenly gap-8">
           {skillsAbout.map((x) => {
             return (
