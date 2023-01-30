@@ -10,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="absolute left-64 pl-4">
+      <div className="absolute left-80 p-4">
         <Home />
         <Objetivos />
         <Experiencia />
