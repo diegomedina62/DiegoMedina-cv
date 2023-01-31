@@ -11,14 +11,18 @@ const Home = () => {
           <h1 className=" py-6 text-4xl font-bold">
             Diego León Medina Velásquez
           </h1>
-          {profesionHome.map((x) => {
-            return (
-              <p key={x.id} className=" text-2xl font-semibold ">
-                {x.profesion}{' '}
-                <span className="text-xl italic">{x.subtexto}</span>
-              </p>
-            );
-          })}
+          <ul>
+            {profesionHome.map((x) => {
+              return (
+                <li key={x.id}>
+                  <p className=" text-2xl font-semibold ">
+                    {x.profesion}{' '}
+                    <span className="text-xl italic">{x.subtexto}</span>
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </section>

@@ -18,14 +18,16 @@ const About = () => {
           <img src={fotoperfil} alt="Foto de Perfil de Diego Medina" />
         </div>
         <div className=" basis-3/5 px-6">
-          {cargosAbout.map((x) => {
-            return (
-              <article className="px-4">
-                <h3>{x.cargo}</h3>
-                <p>{x.texto}</p>
-              </article>
-            );
-          })}
+          <ul>
+            {cargosAbout.map((x) => {
+              return (
+                <li key={x.id} className="px-4">
+                  <h3>{x.cargo}</h3>
+                  <p>{x.texto}</p>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
       <div>
@@ -33,10 +35,12 @@ const About = () => {
         <ul className="mx-auto mt-4 grid w-10/12 grid-cols-3 justify-evenly gap-8">
           {skillsAbout.map((x) => {
             return (
-              <div className=" rounded-lg bg-slate-50 p-3 shadow-lg">
-                <h4>{x.skill}</h4>
-                <p>{x.texto}</p>
-              </div>
+              <li key={x.id}>
+                <div className=" rounded-lg bg-slate-50 p-3 shadow-lg">
+                  <h4>{x.skill}</h4>
+                  <p>{x.texto}</p>
+                </div>
+              </li>
             );
           })}
         </ul>
