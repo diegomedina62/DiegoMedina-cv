@@ -2,42 +2,47 @@ import fotoPerfil from '../images/fotoPerfilcuadrada.jpg';
 import { linksNavbar, menuNavbar } from '../data';
 const Navbar = () => {
   return (
-    <section className="fixed flex h-full w-80 flex-col bg-slate-900 px-1 text-white shadow-md">
-      <div className="h-full basis-4/12">
-        <img
-          src={fotoPerfil}
-          className="mx-auto mt-4 w-1/2 rounded-full border-8"
-          alt="Foto perfil Diego Medina"
-        />
-        <h1 className="p-4 text-center text-3xl font-medium">Diego Medina</h1>
+    <nav className="absolute top-0 bottom-0 w-8 bg-slate-900 pl-8 text-white transition-all duration-500 max-md:hover:w-72 md:w-72">
+      <div className="flex h-full w-full flex-col space-y-8 overflow-y-auto overflow-x-hidden">
+        {/* photo and name */}
+        <div className="flex   flex-col items-center space-y-4">
+          <div className=" w-2/3 pt-4">
+            <img
+              src={fotoPerfil}
+              alt="Foto de perfil Diego M"
+              className="rounded-full border-4 border-slate-200"
+            />
+          </div>
+          <p className=" text-3xl font-semibold">Diego Medina</p>
+        </div>
+        {/* links Icons */}
+        <div className="">
+          <ul className="my-auto flex flex-row justify-center space-x-6">
+            {linksNavbar.map((x) => {
+              return (
+                <li key={x.id}>
+                  <a href={x.href} target="_blank" rel="noreferrer">
+                    <i className={x.icon}></i>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        {/* Nav links */}
+        <div className="">
+          <ul className="flex h-full flex-col space-y-5">
+            {menuNavbar.map((x) => {
+              return (
+                <li key={x.id} className=" text-center text-xl  font-light">
+                  {x.text}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-
-      <div className=" h-full basis-1/12">
-        <ul className="my-auto flex h-full flex-row items-center justify-evenly">
-          {linksNavbar.map((x) => {
-            return (
-              <li key={x.id}>
-                <a href={x.href} target="_blank" rel="noreferrer">
-                  <i className={x.icon}></i>
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-
-      <div className="h-full basis-7/12">
-        <ul className="flex h-full flex-col justify-evenly">
-          {menuNavbar.map((x) => {
-            return (
-              <li key={x.id} className=" text-center text-2xl font-light">
-                {x.text}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    </section>
+    </nav>
   );
 };
 export default Navbar;
