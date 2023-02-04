@@ -2,7 +2,7 @@ import fotoPerfil from '../images/fotoPerfilcuadrada.jpg';
 import { linksNavbar, menuNavbar } from '../data';
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 bottom-0 w-8 bg-slate-900 pl-8 text-white transition-all duration-500 max-md:hover:w-72 md:w-72">
+    <nav className="fixed top-0 bottom-0 z-10  w-8 bg-slate-900 pl-8 text-white transition-all duration-500 max-md:hover:w-72 md:fixed md:w-72 md:transition-none">
       <div className="flex h-full w-full flex-col space-y-8 overflow-y-auto overflow-x-hidden">
         {/* photo and name */}
         <div className="flex   flex-col items-center space-y-4">
