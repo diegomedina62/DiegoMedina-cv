@@ -10,14 +10,15 @@ import Extras from './components/Extras';
 function App() {
   return (
     <React.Fragment>
-      <div className="relative md:container md:mx-auto">
-        <Navbar />
-        <div className="absolute left-8 right-0 md:left-72">
+      <Navbar />
+      <div className="flex flex-row">
+        <div className="w-8 shrink-0 lg:w-72"></div>
+
+        <div className="flex grow flex-col">
           <Home />
-          <About />
-          <Experiencia />
-          <Educacion />
-          <Extras />
+          <p className="mx-auto w-full max-w-screen-lg">
+            <About />
+          </p>
         </div>
       </div>
     </React.Fragment>

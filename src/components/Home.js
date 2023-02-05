@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen bg-[url('./images/home1.png')] bg-cover bg-no-repeat "
+      className="h-screen bg-[url('./images/home1.png')] bg-cover bg-no-repeat"
     >
       <div className="ml-28 flex h-screen w-fit  flex-col justify-center ">
         <div className="rounded-3xl  p-4 backdrop-blur-sm">

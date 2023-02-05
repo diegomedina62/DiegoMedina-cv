@@ -2,7 +2,7 @@ import { cargosAbout, skillsAbout } from '../data';
 import fotoperfil from '../images/fotoPerfil.jpg';
 const About = () => {
   return (
-    <section className=" my-4 ">
+    <section className="">
       <div>
         <h2>Presentación</h2>
         <p>
