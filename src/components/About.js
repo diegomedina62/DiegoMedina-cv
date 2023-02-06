@@ -16,7 +16,7 @@ const About = () => {
       {/* container foto y roles */}
       <div className=" flex flex-col items-center py-4 lg:flex-row lg:space-x-8">
         {/* foto */}
-        <div className="mt-4 lg:basis-3/5">
+        <div className="mt-4 w-10/12 lg:basis-1/2">
           <img
             src={fotoperfil}
             alt="Foto de Perfil de Diego Medina"
@@ -25,7 +25,7 @@ const About = () => {
         </div>
 
         {/* roles */}
-        <div className="py-8 lg:basis-2/5 lg:py-0">
+        <div className="py-8 lg:basis-1/2 lg:py-0">
           <ul>
             {cargosAbout.map((x) => {
               return (
