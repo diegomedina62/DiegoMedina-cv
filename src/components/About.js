@@ -49,7 +49,7 @@ const About = () => {
               <li key={x.id}>
                 <div className=" h-full w-full rounded-lg bg-slate-100 p-2 shadow-lg hover:-translate-y-1 hover:translate-x-1 hover:scale-105">
                   <h3 className="font-semibold">{x.skill}</h3>
-                  <p className="pl-2 font-light">{x.texto}</p>
+                  <p className="pl-2 pt-2 text-sm">{x.texto}</p>
                 </div>
               </li>
             );

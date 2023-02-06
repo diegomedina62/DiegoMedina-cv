@@ -99,3 +99,95 @@ export const skillsAbout = [
     texto: 'Uso de Git y de Metodologias Agiles y SCRUM',
   },
 ];
+
+export const expIng = [
+  {
+    id: 61,
+    lugar: 'INTEINSA',
+    subtitulo: 'Ingenieria,Tecnologia e Instrumentacion',
+    fechas: '2009-2011',
+    funciones: [
+      `Creación y programación de la herramienta “MIG”, en VisualBasic 
+    (MS Excel) para el manejo, transducción y procesamiento de 
+    lecturas de piezómetros, celdas de deformación, vertederos de 
+    caudal, pluviómetros y creación de base de datos para posterior 
+    análisis de riesgo `,
+      `Realización de informes trimestrales de análisis de instrumentación 
+    geotécnica para centrales hidroeléctricas de ISAGEN (San Carlos, 
+    Miel, Jaguas).`,
+      `Presentación de resultados de informes de riesgo y planes de acción 
+    en reuniones gerenciales`,
+      `Diseño geotécnico de estabilización de laderas en subestación 
+    eléctrica de Central Porce IV, EPM. Visita de campo, toma de 
+    muestras para ensayos geotécnicos, diseño de soluciones de 
+    drenajes`,
+      `Trabajos de estabilización de laderas en punto de anclaje de 
+    almenara de conducción de la represa Rio Grande, EPM. Visita de 
+    campo, levantamiento geológico, diseño de soil nailing para 
+    estabilización de ladera. 
+    `,
+      `Proyección de cantidades de obra y análisis de precios unitarios en 
+    proyectos geotécnicos `,
+    ],
+  },
+  {
+    id: 62,
+    lugar: 'O.M.C',
+    subtitulo: 'Montajes eléctricos - Medellín, Colombia',
+    fechas: '2005-2008',
+    funciones: [
+      `Programación de algoritmos en VisualBasic (MS Excel) para 
+    procesamiento de información de pago de nómina 
+    `,
+      `Proyección de cantidades de obra, cotizaciones y liquidaciones en 
+    obras de montajes eléctricos de baja y media tensión, para 
+    empresas como Zenu, Coltabaco, Fritolay, Nacional de Chocolates, 
+    Cervunion, Colcafé, entre otras`,
+      `Tareas administrativas relacionadas a la compra y asignación de 
+    recursos en obras de montajes eléctricos `,
+    ],
+  },
+];
+
+export const expDocencia = [
+  {
+    id: 71,
+    lugar: 'DOCENCIA EN MUSICA',
+    subtitulo: '',
+    fechas: '2017-Actualidad',
+    funciones: [
+      `Dictado de clases particulares a estudiantes de música, diseñando 
+    y creando contenido personalizado según las necesidades de 
+    aprendizaje en diferentes instrumentos y/o habilidades musicales `,
+    ],
+  },
+  {
+    id: 72,
+    lugar: 'TAMABA',
+    subtitulo: ` Instituto Terciario de Música y Sonido. Buenos Aires - Argentina`,
+    fechas: '2012-2016',
+    funciones: [
+      `Profesor de cátedra en cursos de Nivel I, II, III y IV (Armonía y 
+        Entrenamiento auditivo)`,
+      `Creación de material de docencia y textos institucionales `,
+      `Dictado de Monitorias de Apoyo para estudiantes`,
+      `Traductor e intérprete (inglés-español) en seminarios de artistas 
+      internacionales `,
+    ],
+  },
+  {
+    id: 73,
+    lugar: 'U. NACIONAL DE COLOMBIA',
+    subtitulo: `Monitor en Mecánica de fluidos, Topografía y geodesia`,
+    fechas: '2008-2010',
+    funciones: [
+      ` Realización y dictado de talleres de apoyo`,
+      `Calificación de exámenes parciales y trabajos prácticos. `,
+      `Realización de prácticas de campo de docencia para realizar 
+      levantamientos topográficos con teodolito y estación total. Cálculo 
+      de parámetros topográficos y creación de planos con curvas de 
+      nivel 
+      `,
+    ],
+  },
+];
