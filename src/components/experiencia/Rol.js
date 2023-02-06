@@ -5,7 +5,7 @@ const Rol = ({ titulo, dataObject }) => {
 
       {dataObject.map((x) => {
         return (
-          <div className="mx-8 mt-4 mb-10 flex flex-row space-x-4">
+          <div key={x.id} className="mx-8 mt-4 mb-10 flex flex-row space-x-4">
             {/* bisagra */}
             <div className="relative mt-2 -mb-12 w-1 bg-slate-600 pt-1">
               <div className="absolute -left-2 -top-1 h-fit w-fit">

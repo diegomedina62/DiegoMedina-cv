@@ -191,3 +191,20 @@ export const expDocencia = [
     ],
   },
 ];
+
+export const eduBasica = [
+  {
+    id: 81,
+    titulo: `Titulo en Ingeniero Civil`,
+    subtitulo: `Universidad Nacional de Colombia- Sede Medellin`,
+    fechas: `2005-2010`,
+    acta: `(Acta No.2067 Libro No.2)`,
+  },
+  {
+    id: 82,
+    titulo: `Titulo Secundario`,
+    subtitulo: `Colegio San José de la Salle`,
+    fechas: `2004`,
+    acta: `(Acta No.001 Libro No.02 Folio No.68)`,
+  },
+];
