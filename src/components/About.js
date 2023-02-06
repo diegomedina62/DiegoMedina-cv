@@ -14,7 +14,7 @@ const About = () => {
       </p>
 
       {/* container foto y roles */}
-      <div className=" flex flex-col items-center py-8 lg:flex-row lg:space-x-8">
+      <div className=" flex flex-col items-center py-4 lg:flex-row lg:space-x-8">
         {/* foto */}
         <div className="mt-4 lg:basis-3/5">
           <img

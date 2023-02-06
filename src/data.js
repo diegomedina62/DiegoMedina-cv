@@ -74,7 +74,7 @@ export const skillsAbout = [
     id: 51,
     skill: 'Optimizar Procesos',
     texto:
-      'Revisar el proceso actual de manejo de datos, para proponer soluciones agiles y automatizadas',
+      'Revisar procesos actuales de manejo de datos, para proponer soluciones agiles y automatizadas',
   },
   {
     id: 52,
@@ -83,8 +83,9 @@ export const skillsAbout = [
   },
   {
     id: 53,
-    skill: 'Programar Codigo',
-    texto: 'Programar en React, Node.JS y Python',
+    skill: 'Lenguajes de programacion',
+    texto:
+      'Javascript usando React y Node.JS para diseño web y Python para manejo de datos',
   },
   {
     id: 54,
