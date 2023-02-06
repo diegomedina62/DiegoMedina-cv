@@ -16,9 +16,12 @@ function App() {
 
         <div className="flex grow flex-col">
           <Home />
-          <p className="mx-auto w-full max-w-screen-lg">
+          <div className="mx-auto w-full max-w-screen-lg px-4 2xl:px-0">
             <About />
-          </p>
+            <Experiencia />
+            <Educacion />
+            <Extras />
+          </div>
         </div>
       </div>
     </React.Fragment>

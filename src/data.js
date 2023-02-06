@@ -70,9 +70,31 @@ export const cargosAbout = [
 ];
 
 export const skillsAbout = [
-  { id: 51, skill: 'Optimizar Procesos', texto: 'muestra de texto de skill' },
-  { id: 52, skill: 'Implementar codigos', texto: 'muestra de texto de skill' },
-  { id: 53, skill: 'Lenguajes', texto: 'muestra de texto de skill' },
-  { id: 54, skill: 'Comunicacion', texto: 'muestra de texto de skill' },
-  { id: 55, skill: 'Trabajo en Equipo', texto: 'muestra de texto de skill' },
+  {
+    id: 51,
+    skill: 'Optimizar Procesos',
+    texto:
+      'Revisar el proceso actual de manejo de datos, para proponer soluciones agiles y automatizadas',
+  },
+  {
+    id: 52,
+    skill: 'Implementar codigos',
+    texto: 'Diseñar algoritmos y llevarlos a codigo para su implementacion',
+  },
+  {
+    id: 53,
+    skill: 'Programar Codigo',
+    texto: 'Programar en React, Node.JS y Python',
+  },
+  {
+    id: 54,
+    skill: 'Comunicar',
+    texto:
+      'Capacidad de exponer en publico para explicar planes de accion o presentar resultados',
+  },
+  {
+    id: 55,
+    skill: 'Trabajar en Equipo',
+    texto: 'Uso de Git y de Metodologias Agiles y SCRUM',
+  },
 ];
