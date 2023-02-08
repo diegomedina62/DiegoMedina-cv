@@ -13,7 +13,7 @@ function App() {
 
         <div className="flex grow flex-col">
           <Home />
-          <div className="mx-auto w-full max-w-screen-lg px-4 2xl:px-0">
+          <div className="mx-auto w-full max-w-screen-lg px-3 2xl:px-0">
             <About />
             <Experiencia />
             <Formacion />

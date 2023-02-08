@@ -1,39 +1,28 @@
 import { freeCodeCamp } from '../../data';
+import Bisagra from '../Bisagra';
+
 function Freecodecamp() {
   return (
-    <div className="mx-8 mt-4 mb-4 flex flex-row space-x-4">
+    <div className="ml-1 mt-4 mb-4 flex flex-row space-x-4 lg:mx-8">
       {/* bisagra */}
-      <div className="relative mt-2 -mb-8 w-1 bg-slate-600 pt-1">
-        <div className="absolute -left-2 -top-1 h-fit w-fit">
-          <svg
-            className="stroke-slate-600"
-            viewBox="0 0 4 4"
-            width="1.25rem"
-            height="1.25rem"
-          >
-            <circle cx="2" cy="2" r="1.5" stroke-width="0.7" fill="white" />
-          </svg>
-        </div>
-      </div>
+      <Bisagra />
       {/* container de freeCodeCamp */}
-      <div className="w-full pl-2">
+      <div className="w-full lg:pl-2">
         <h3>FreeCodeCamp</h3>
         <p className="mb-2 w-fit rounded-lg bg-slate-200 px-2">2022-2023</p>
-        <p>
-          Visita mi perfil de FreeCodeCamp para ver las certificaciones
-          obtenidas:
-        </p>
         <p>
           <a
             href="https://www.freecodecamp.org/diegomedina62/"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-900"
+            className="text-blue-900 underline"
           >
-            https://www.freecodecamp.org/diegomedina62/
-          </a>
+            Visita mi perfil
+          </a>{' '}
+          de FreeCodeCamp para ver las certificaciones obtenidas:
         </p>
-        <ul className="mx-8 list-disc py-2 text-sm">
+
+        <ul className="mx-4 list-disc py-2 text-sm lg:mx-8">
           {freeCodeCamp.map((x) => {
             return (
               <li className="py-1">
