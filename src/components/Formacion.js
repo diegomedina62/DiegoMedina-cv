@@ -5,8 +5,8 @@ import Idioma from './formaciones/Idioma';
 
 const Formacion = () => {
   return (
-    <section>
-      <h1>Formación</h1>
+    <section id="formacion">
+      <h1 className="mt-4">Formación</h1>
       <div className="lg:flex">
         {/* Formacion basica */}
 

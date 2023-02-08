@@ -2,7 +2,7 @@ import { cargosAbout, skillsAbout } from '../data';
 import fotoperfil from '../images/fotoPerfil.jpg';
 const About = () => {
   return (
-    <section className="py-4">
+    <section id="about" className="py-4">
       {/* presentacion y parrafo inicial */}
       <h1>Presentación</h1>
       <p>
@@ -40,7 +40,7 @@ const About = () => {
       </div>
 
       {/* container de skills */}
-      <div className="">
+      <div id="skills">
         <h1 className="">Habilidades</h1>
         {/* celdas de skills  */}
         <ul className="m-4 grid grid-cols-2 place-items-stretch gap-8 lg:mx-auto lg:w-10/12 lg:grid-cols-3">

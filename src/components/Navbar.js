@@ -1,8 +1,16 @@
 import fotoPerfil from '../images/fotoPerfilcuadrada.jpg';
 import { linksNavbar, menuNavbar } from '../data';
+import NavnarBtn from './NavnarBtn';
+
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 bottom-0 z-10  w-8 bg-slate-900 pl-8 text-white transition-all duration-500 max-lg:hover:w-72 lg:fixed lg:w-72 lg:pl-0 lg:transition-none">
+    <nav
+      id="navBar"
+      className="fixed top-0 bottom-0 z-10  w-8 bg-slate-900 pl-8 text-white transition-all duration-500 lg:fixed lg:w-72 lg:pl-0 lg:transition-none"
+    >
+      {/* menu button */}
+      <NavnarBtn />
+
       <div className="flex h-full w-full flex-col space-y-8 overflow-y-auto overflow-x-hidden">
         {/* photo and name */}
         <div className="flex   flex-col items-center space-y-4">
@@ -15,6 +23,7 @@ const Navbar = () => {
           </div>
           <p className=" text-2xl font-medium">Diego Medina</p>
         </div>
+
         {/* links Icons */}
         <div className="">
           <ul className="my-auto flex flex-row justify-center space-x-6">
@@ -29,13 +38,17 @@ const Navbar = () => {
             })}
           </ul>
         </div>
+
         {/* Nav links */}
         <div className="">
           <ul className="flex h-full flex-col space-y-5">
             {menuNavbar.map((x) => {
               return (
-                <li key={x.id} className=" text-center text-xl  font-light">
-                  {x.text}
+                <li
+                  key={x.id}
+                  className=" w-full text-center  text-xl font-light"
+                >
+                  <a href={x.href}>{x.text}</a>
                 </li>
               );
             })}

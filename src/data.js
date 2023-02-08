@@ -1,37 +1,36 @@
 export const linksNavbar = [
-  {
-    id: 14,
-    name: 'whatsapp',
-    icon: 'fab fa-whatsapp fa-2x',
-    href: '',
-  },
+  // {
+  //   id: 14,
+  //   name: 'whatsapp',
+  //   icon: 'fab fa-whatsapp fa-2x',
+  //   href: '',
+  // },
   {
     id: 11,
     name: 'Email',
     icon: 'far fa-envelope fa-2x',
-    href: '',
+    href: 'mailto:diegoleonmedina62@gmail.com',
   },
   {
     id: 12,
     name: 'GitHub',
     icon: 'fab fa-github fa-2x',
-    href: '',
+    href: 'https://github.com/diegomedina62',
   },
   {
     id: 13,
     name: 'FreeCodeCamp',
     icon: 'fab fa-free-code-camp fa-2x',
-    href: '',
+    href: 'https://www.freecodecamp.org/diegomedina62',
   },
 ];
 
 export const menuNavbar = [
-  { id: 21, text: 'Home', hre: '' },
-  { id: 22, text: 'Acerca de', hre: '' },
-  { id: 26, text: 'Habilidades', hre: '' },
-  { id: 23, text: 'Experiencia Profesional', hre: '' },
-  { id: 24, text: 'Formación', hre: '' },
-  { id: 25, text: 'Idiomas', hre: '' },
+  { id: 21, text: 'Home', href: '#home' },
+  { id: 22, text: 'Acerca de', href: '#about' },
+  { id: 26, text: 'Habilidades', href: '#skills' },
+  { id: 23, text: 'Experiencia Profesional', href: '#experiencia' },
+  { id: 24, text: 'Formación', href: '#formacion' },
 ];
 
 export const profesionHome = [
