@@ -28,10 +28,10 @@ export const linksNavbar = [
 export const menuNavbar = [
   { id: 21, text: 'Home', hre: '' },
   { id: 22, text: 'Acerca de', hre: '' },
+  { id: 26, text: 'Habilidades', hre: '' },
   { id: 23, text: 'Experiencia Profesional', hre: '' },
   { id: 24, text: 'Formación', hre: '' },
   { id: 25, text: 'Idiomas', hre: '' },
-  { id: 26, text: 'Extras', hre: '' },
 ];
 
 export const profesionHome = [
@@ -195,7 +195,7 @@ export const expDocencia = [
 export const eduBasica = [
   {
     id: 81,
-    titulo: `Titulo en Ingeniero Civil`,
+    titulo: `Titulo en Ingeniería Civil`,
     subtitulo: `Universidad Nacional de Colombia- Sede Medellin`,
     fechas: `2005-2010`,
     acta: `(Acta No.2067 Libro No.2)`,
@@ -206,5 +206,30 @@ export const eduBasica = [
     subtitulo: `Colegio San José de la Salle`,
     fechas: `2004`,
     acta: `(Acta No.001 Libro No.02 Folio No.68)`,
+  },
+];
+
+export const freeCodeCamp = [
+  {
+    id: 91,
+    item: 'Diseño Web (FrontEnd y Backend) ',
+    tecnos: `HTML, CSS, Javascript, React, NodeJs y D3js 
+  `,
+  },
+  {
+    id: 92,
+    item: 'Bases de Datos',
+    tecnos: `MongoDB para bases no relacionales y MySQL para bases 
+    relacionales`,
+  },
+  {
+    id: 93,
+    item: 'Data Analysis',
+    tecnos: `Python, Numpy, Pandas, Matplotlib y Seaborn `,
+  },
+  {
+    id: 94,
+    item: 'Quality Assurance',
+    tecnos: `Mocca y Chai`,
   },
 ];

@@ -1,10 +1,9 @@
 import React from 'react';
-import Educacion from './components/Educacion';
+import Formacion from './components/Formacion';
 import Experiencia from './components/Experiencia';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
-
 import Extras from './components/Extras';
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
           <div className="mx-auto w-full max-w-screen-lg px-4 2xl:px-0">
             <About />
             <Experiencia />
-            <Educacion />
+            <Formacion />
             <Extras />
           </div>
         </div>
