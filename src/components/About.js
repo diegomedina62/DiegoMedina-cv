@@ -43,7 +43,7 @@ const About = () => {
       <div id="skills">
         <h1 className="">Habilidades</h1>
         {/* celdas de skills  */}
-        <ul className="m-4 grid place-items-stretch gap-8 lg:mx-auto lg:w-10/12 lg:grid-cols-3">
+        <ul className="m-4 grid place-items-stretch gap-8 md:mx-auto md:w-10/12 md:grid-cols-2 lg:grid-cols-3">
           {skillsAbout.map((x) => {
             return (
               <li key={x.id}>
