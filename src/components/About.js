@@ -1,8 +1,8 @@
-import { cargosAbout, skillsAbout } from '../data';
+import { cargosAbout } from '../data';
 import fotoperfil from '../images/fotoPerfil.jpg';
 const About = () => {
   return (
-    <section id="about" className="py-4">
+    <section id="about" className="">
       {/* presentacion y parrafo inicial */}
       <h1>Presentación</h1>
       <p>
@@ -37,24 +37,6 @@ const About = () => {
             })}
           </ul>
         </div>
-      </div>
-
-      {/* container de skills */}
-      <div id="skills">
-        <h1 className="">Habilidades</h1>
-        {/* celdas de skills  */}
-        <ul className="m-4 grid place-items-stretch gap-8 md:mx-auto md:w-10/12 md:grid-cols-2 lg:grid-cols-3">
-          {skillsAbout.map((x) => {
-            return (
-              <li key={x.id}>
-                <div className=" h-full w-full rounded-lg bg-slate-100 p-2 shadow-lg hover:-translate-y-1 hover:translate-x-1 hover:scale-105">
-                  <h3 className="font-semibold">{x.skill}</h3>
-                  <p className="pl-2 pt-2 text-sm">{x.texto}</p>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </section>
   );

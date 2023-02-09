@@ -1,3 +1,14 @@
+import logoReact from './images/logos/logoReact.svg';
+import logoHtml from './images/logos/logoHtml.svg';
+import logoCss from './images/logos/logoCss.svg';
+import logoNode from './images/logos/logoNode.svg';
+import logoPython from './images/logos/logoPython.svg';
+import logoNumpy from './images/logos/logoNumpy.svg';
+import logoPandas from './images/logos/logoPandas.png';
+import logoMocha from './images/logos/logoMocha.svg';
+import logoChai from './images/logos/logoChai.svg';
+import logoJavascript from './images/logos/logoJavascript.svg';
+
 export const linksNavbar = [
   // {
   //   id: 14,
@@ -82,18 +93,12 @@ export const skillsAbout = [
   },
   {
     id: 53,
-    skill: 'Lenguajes de programacion',
-    texto:
-      'Javascript usando React y Node.JS para diseño web y Python para manejo de datos',
-  },
-  {
-    id: 54,
     skill: 'Comunicar',
     texto:
       'Capacidad de exponer en publico para explicar planes de accion o presentar resultados',
   },
   {
-    id: 55,
+    id: 54,
     skill: 'Trabajar en Equipo',
     texto: 'Uso de Git y de Metodologias Agiles y SCRUM',
   },
@@ -230,5 +235,74 @@ export const freeCodeCamp = [
     id: 94,
     item: 'Quality Assurance',
     tecnos: `Mocca y Chai`,
+  },
+];
+
+export const logosWeb = [
+  {
+    id: 101,
+    logo: logoJavascript,
+    alt: 'logo React',
+    nombre: 'Javascript',
+  },
+  {
+    id: 102,
+    logo: logoHtml,
+    alt: 'logo HTML',
+    nombre: 'HTML',
+  },
+  {
+    id: 103,
+    logo: logoCss,
+    alt: 'logo Css',
+    nombre: 'Css',
+  },
+  {
+    id: 104,
+    logo: logoReact,
+    alt: 'logo React',
+    nombre: 'React',
+  },
+  {
+    id: 105,
+    logo: logoNode,
+    alt: 'logo Node',
+    nombre: 'Node',
+  },
+];
+
+export const logosData = [
+  {
+    id: 111,
+    logo: logoPython,
+    alt: 'logo Node',
+    nombre: 'Python',
+  },
+  {
+    id: 112,
+    logo: logoNumpy,
+    alt: 'logo Numpy',
+    nombre: 'Numpy',
+  },
+  {
+    id: 113,
+    logo: logoPandas,
+    alt: 'logo pandas',
+    nombre: 'pandas',
+  },
+];
+
+export const logosQuality = [
+  {
+    id: 121,
+    logo: logoMocha,
+    alt: 'logo Mocha',
+    nombre: 'Mocha',
+  },
+  {
+    id: 122,
+    logo: logoChai,
+    alt: 'logo Chai',
+    nombre: 'Chai',
   },
 ];

@@ -4,6 +4,7 @@ import Experiencia from './components/Experiencia';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Skills from './components/Skills';
 function App() {
   return (
     <React.Fragment>
@@ -15,6 +16,7 @@ function App() {
           <Home />
           <div className="mx-auto w-full max-w-screen-lg px-4 2xl:px-0">
             <About />
+            <Skills />
             <Experiencia />
             <Formacion />
           </div>
