@@ -1,5 +1,7 @@
 import { cargosAbout } from '../data';
 import fotoperfil from '../images/fotoPerfil.jpg';
+import PersonalData from './PersonalData';
+
 const About = () => {
   return (
     <section id="about" className="">
@@ -22,6 +24,16 @@ const About = () => {
             alt="Foto de Perfil de Diego Medina"
             className="rounded-lg"
           />
+          <PersonalData />
+          <p className="font-bold">
+            Email:{' '}
+            <a
+              className="font-normal text-blue-900 underline"
+              href="mailto:diegoleonmedina62@gmail.com"
+            >
+              diegoleonmedina62@gmail.com
+            </a>
+          </p>
         </div>
 
         {/* roles */}

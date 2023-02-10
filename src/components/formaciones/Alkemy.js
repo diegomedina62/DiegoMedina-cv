@@ -16,7 +16,7 @@ const Alkemy = () => {
             "
             target="_blank"
             rel="noreferrer"
-            className="text-blue-900"
+            className="text-blue-900 underline"
           >
             https://www.alkemy.org/
           </a>
