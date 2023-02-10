@@ -1,4 +1,10 @@
-import { skillsAbout, logosWeb, logosData, logosQuality } from '../data';
+import {
+  skillsAbout,
+  logosWeb,
+  logosData,
+  logosQuality,
+  logosDatabase,
+} from '../data';
 import Logos from './Logos';
 
 const Skills = () => {
@@ -6,7 +12,7 @@ const Skills = () => {
     <section id="skills">
       <h1 className="">Habilidades</h1>
       {/* celdas de skills  */}
-      <div className="m-4 grid place-items-stretch gap-8 md:mx-auto md:w-10/12 md:grid-cols-2 lg:grid-cols-3">
+      <div className=" my-4 flex flex-col space-y-6">
         {skillsAbout.map((x) => {
           return (
             <div key={x.id}>
@@ -18,10 +24,11 @@ const Skills = () => {
           );
         })}
         <div className="h-full w-full rounded-lg bg-slate-100 p-2 shadow-lg">
-          <h3 className="font-semibold">Heramientas de programación</h3>
-          <Logos titulo="Para web development" logosObject={logosWeb} />
-          <Logos titulo="Para Data Managment" logosObject={logosData} />
-          <Logos titulo="Para Quality Assurance" logosObject={logosQuality} />
+          <h3 className="fontd-semibold">Heramientas de programación</h3>
+          <Logos titulo="Web development" logosObject={logosWeb} />
+          <Logos titulo="Data Managment" logosObject={logosData} />
+          <Logos titulo="Base de Datos" logosObject={logosDatabase} />
+          <Logos titulo="Quality Assurance" logosObject={logosQuality} />
         </div>
       </div>
     </section>

@@ -8,6 +8,11 @@ import logoPandas from './images/logos/logoPandas.png';
 import logoMocha from './images/logos/logoMocha.svg';
 import logoChai from './images/logos/logoChai.svg';
 import logoJavascript from './images/logos/logoJavascript.svg';
+import logoMongo from './images/logos/logoMongo.svg';
+import logoMysql from './images/logos/logoMysql.svg';
+import logoD3 from './images/logos/logoD3.png';
+import logoSeaborn from './images/logos/logoSeaborn.png';
+import logoMat from './images/logos/logoMat.png';
 
 export const linksNavbar = [
   // {
@@ -269,6 +274,12 @@ export const logosWeb = [
     alt: 'logo Node',
     nombre: 'Node',
   },
+  {
+    id: 106,
+    logo: logoD3,
+    alt: 'logo D3.js',
+    nombre: 'D3.js',
+  },
 ];
 
 export const logosData = [
@@ -289,6 +300,34 @@ export const logosData = [
     logo: logoPandas,
     alt: 'logo pandas',
     nombre: 'pandas',
+  },
+
+  {
+    id: 114,
+    logo: logoSeaborn,
+    alt: 'logo Seaborn',
+    nombre: 'Seaborn',
+  },
+  {
+    id: 113,
+    logo: logoMat,
+    alt: 'logo Matplotlib',
+    nombre: 'Matplotlib',
+  },
+];
+
+export const logosDatabase = [
+  {
+    id: 131,
+    logo: logoMongo,
+    alt: 'logo MongoDB',
+    nombre: 'MongaDB',
+  },
+  {
+    id: 132,
+    logo: logoMysql,
+    alt: 'logo MySQL',
+    nombre: 'MySQL',
   },
 ];
 

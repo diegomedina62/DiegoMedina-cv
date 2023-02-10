@@ -11,7 +11,7 @@ const NavnarBtn = () => {
       className="absolute -right-3 top-3 rounded-full bg-slate-600 p-2 px-3 lg:hidden"
       onClick={buttonClick}
     >
-      <i id="menuIcon" class="fas fa-bars"></i>
+      <i id="menuIcon" className="fas fa-bars"></i>
       <i id="menuClose" className="fas fa-angle-left fa-lg hidden"></i>
     </button>
   );
