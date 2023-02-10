@@ -12,21 +12,21 @@ const Skills = () => {
     <section id="skills">
       <h1 className="">Habilidades</h1>
       {/* celdas de skills  */}
-      <div className=" flex- my-4 flex-col space-y-6 md:mx-6 md:grid md:grid-cols-3 md:gap-6 md:space-y-0 ">
+      <div className=" flex- my-4 mx-auto max-w-lg flex-col space-y-6 md:mx-12 md:grid md:max-w-none md:grid-cols-5 md:gap-6 md:space-y-0 ">
         {/* Celdas de habilidades */}
         {skillsAbout.map((x) => {
           return (
             <div
               key={x.id}
-              className="  h-full w-full rounded-lg bg-slate-50 p-2 shadow-lg "
+              className="h-full w-full rounded-lg bg-slate-50 p-2 shadow-lg  md:col-span-2 md:col-start-1"
             >
               <h3 className="font-semibold">{x.skill}</h3>
-              <p className="pl-2 pt-2 text-sm">{x.texto}</p>
+              <p className="pl-2 pt-2">{x.texto}</p>
             </div>
           );
         })}
         {/* Celda de logos */}
-        <div className=" h-full w-full rounded-lg bg-slate-50 p-2 shadow-lg md:col-start-2 md:col-end-4 md:row-span-4 md:row-start-1">
+        <div className=" h-full w-full rounded-lg bg-slate-50 p-2 shadow-lg md:col-start-3 md:col-end-6 md:row-span-4 md:row-start-1">
           <h3 className="fontd-semibold">
             Programar con las siguientes herramientas
           </h3>
