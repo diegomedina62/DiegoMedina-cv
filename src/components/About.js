@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="">
       {/* presentacion y parrafo inicial */}
-      <h1>Presentación</h1>
+      <h1>Sobre Mí</h1>
       <p>
         Me apasiona la programación y el uso de algoritmos para el manejo de
         datos. Mi objetivo es desarrollar herramientas de programación para

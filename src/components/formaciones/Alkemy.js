@@ -8,8 +8,8 @@ const Alkemy = () => {
       {/* container de Alkemy*/}
       <div className="w-full lg:pl-2">
         <h3>Alkemy</h3>
-        <p className="mb-2 w-fit rounded-lg bg-slate-200 px-2">NOV-DIC 2022</p>
-        <p>Certificación en BackEnd dentro del programa Skill Up de Node.Js</p>
+        <p className="mb-2 w-fit rounded-lg bg-slate-200 px-2">Nov-Dic 2022</p>
+        <p>Certificación en BackEnd dentro del programa Skill Up de Node.js</p>
         <p>
           <a
             href="https://www.alkemy.org/ 
@@ -30,10 +30,10 @@ const Alkemy = () => {
               <span className="font-bold">metodologías ágiles</span> y{' '}
               <span className="font-bold">SCRUM</span>, para diseñar una{' '}
               <span className="font-bold">Rest API</span> para una aplicación de
-              billetera electrónica, usando NodeJs. Énfasis en trabajo en equipo
-              y manejo de control de versiones de{' '}
+              billetera electrónica, usando Node.js. Énfasis en trabajo en
+              equipo y manejo de control de versiones de{' '}
               <span className="font-bold">GIT</span> y uso de repositorios en{' '}
-              <span className="font-bold">GITHUB</span>
+              <span className="font-bold">GITHUB</span>.
             </p>
           </li>
         </ul>

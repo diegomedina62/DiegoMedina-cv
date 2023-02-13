@@ -28,7 +28,7 @@ function Freecodecamp() {
               <li className="py-1">
                 <p className="font-bold">
                   {x.item}
-                  <span className="font-normal"> usando: </span>
+                  <span className="font-normal">: </span>
                 </p>
                 {x.tecnos} <p></p>
               </li>

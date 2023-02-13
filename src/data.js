@@ -44,7 +44,7 @@ export const linksNavbar = [
 
 export const menuNavbar = [
   { id: 21, text: 'Home', href: '#home' },
-  { id: 22, text: 'Acerca de', href: '#about' },
+  { id: 22, text: 'Sobre Mí', href: '#about' },
   { id: 26, text: 'Habilidades', href: '#skills' },
   { id: 23, text: 'Experiencia Profesional', href: '#experiencia' },
   { id: 24, text: 'Formación', href: '#formacion' },
@@ -73,7 +73,7 @@ export const cargosAbout = [
   {
     id: 43,
     cargo: 'Programador',
-    texto: `Soy programador web en FrontEnd usando React y en Backend usando Node.js, con fines a desarrollar aplicaciones de manejo y análisis de datos. Uso Python para el tratamiento y análisis de datos y frameworks como D3.js y Seaborn y MatplotLib para la presentación de resultados`,
+    texto: `Soy programador web en FrontEnd (usando React) y en Backend (usando Node.js). Mi objetivo es desarrollar aplicaciones de manejo y análisis de datos. Uso Python para el tratamiento y análisis de datos y frameworks como D3.js, y Seaborn y Matplotlib para la presentación de resultados.`,
   },
   {
     id: 42,
@@ -88,25 +88,25 @@ export const cargosAbout = [
 export const skillsAbout = [
   {
     id: 51,
-    skill: 'Optimizar Procesos',
+    skill: 'Optimizar procesos',
     texto:
-      'Revisar procesos actuales de manejo de datos, para proponer soluciones agiles y automatizadas',
+      'Revisar procesos actuales de manejo de datos, para proponer soluciones ágiles y automatizadas',
   },
   {
     id: 52,
-    skill: 'Implementar codigos',
-    texto: 'Diseñar algoritmos y llevarlos a codigo para su implementación',
+    skill: 'Implementar códigos',
+    texto: 'Diseñar algoritmos y llevarlos a código para su implementación',
   },
   {
     id: 53,
     skill: 'Comunicar',
     texto:
-      'Capacidad de exponer en público para explicar planes de acción o presentar resultados',
+      'Capacidad de exponer en público para explicar planes de acción y presentar resultados',
   },
   {
     id: 54,
-    skill: 'Trabajar en Equipo',
-    texto: 'Uso de Git y de Metodologías Agiles y SCRUM',
+    skill: 'Trabajar en equipo',
+    texto: 'Uso de Git y de Metodologías Ágiles y SCRUM',
   },
 ];
 
@@ -114,30 +114,30 @@ export const expIng = [
   {
     id: 61,
     lugar: 'INTEINSA',
-    subtitulo: 'Ingeniería, Tecnología e Instrumentación',
+    subtitulo: 'Ingeniería, Tecnología e Instrumentación - Medellín, Colombia',
     fechas: '2009-2011',
     funciones: [
       `Creación y programación de la herramienta “MIG”, en VisualBasic 
     (MS Excel) para el manejo, transducción y procesamiento de 
     lecturas de piezómetros, celdas de deformación, vertederos de 
     caudal, pluviómetros y creación de base de datos para posterior 
-    análisis de riesgo `,
+    análisis de riesgo. `,
       `Realización de informes trimestrales de análisis de instrumentación 
     geotécnica para centrales hidroeléctricas de ISAGEN (San Carlos, 
     Miel, Jaguas).`,
       `Presentación de resultados de informes de riesgo y planes de acción 
-    en reuniones gerenciales`,
+    en reuniones gerenciales.`,
       `Diseño geotécnico de estabilización de laderas en subestación 
     eléctrica de Central Porce IV, EPM. Visita de campo, toma de 
     muestras para ensayos geotécnicos, diseño de soluciones de 
-    drenajes`,
+    drenajes.`,
       `Trabajos de estabilización de laderas en punto de anclaje de 
     almenara de conducción de la represa Rio Grande, EPM. Visita de 
     campo, levantamiento geológico, diseño de soil-nailing para 
     estabilización de ladera. 
     `,
       `Proyección de cantidades de obra y análisis de precios unitarios en 
-    proyectos geotécnicos `,
+    proyectos geotécnicos.`,
     ],
   },
   {
@@ -147,14 +147,14 @@ export const expIng = [
     fechas: '2005-2008',
     funciones: [
       `Programación de algoritmos en VisualBasic (MS Excel) para 
-    procesamiento de información de pago de nómina 
+    procesamiento de información de pago de nómina. 
     `,
       `Proyección de cantidades de obra, cotizaciones y liquidaciones en 
     obras de montajes eléctricos de baja y media tensión, para 
-    empresas como Zenu, Coltabaco, Fritolay, Nacional de Chocolates, 
-    Cervunion, Colcafé, entre otras`,
+    empresas como Zenú, Coltabaco, Fritolay, Nacional de Chocolates, 
+    Cervunion, Colcafé, entre otras.`,
       `Tareas administrativas relacionadas a la compra y asignación de 
-    recursos en obras de montajes eléctricos `,
+    recursos en obras de montajes eléctricos. `,
     ],
   },
 ];
@@ -162,42 +162,41 @@ export const expIng = [
 export const expDocencia = [
   {
     id: 71,
-    lugar: 'DOCENCIA EN MUSICA',
+    lugar: 'DOCENCIA EN MÚSICA',
     subtitulo: '',
     fechas: '2017-Actualidad',
     funciones: [
       `Dictado de clases particulares a estudiantes de música, diseñando 
     y creando contenido personalizado según las necesidades de 
-    aprendizaje en diferentes instrumentos y/o habilidades musicales `,
+    aprendizaje en diferentes instrumentos y/o habilidades musicales.`,
     ],
   },
   {
     id: 72,
     lugar: 'TAMABA',
-    subtitulo: ` Instituto Terciario de Música y Sonido. Buenos Aires - Argentina`,
+    subtitulo: ` Instituto Terciario de Música y Sonido - Buenos Aires, Argentina`,
     fechas: '2012-2016',
     funciones: [
       `Profesor de cátedra en cursos de Nivel I, II, III y IV (Armonía y 
-        Entrenamiento auditivo)`,
-      `Creación de material de docencia y textos institucionales `,
-      `Dictado de Monitorias de Apoyo para estudiantes`,
+        Entrenamiento auditivo).`,
+      `Creación de material de docencia y textos institucionales. `,
+      `Dictado de Monitorías de apoyo para estudiantes.`,
       `Traductor e intérprete (inglés-español) en seminarios de artistas 
-      internacionales `,
+      internacionales. `,
     ],
   },
   {
     id: 73,
-    lugar: 'U. NACIONAL DE COLOMBIA',
+    lugar: 'UNIVERSIDAD NACIONAL DE COLOMBIA',
     subtitulo: `Monitor en Mecánica de fluidos, Topografía y geodesia`,
     fechas: '2008-2010',
     funciones: [
-      ` Realización y dictado de talleres de apoyo`,
+      ` Realización y dictado de talleres de apoyo.`,
       `Calificación de exámenes parciales y trabajos prácticos. `,
       `Realización de prácticas de campo de docencia para realizar 
-      levantamientos topográficos con teodolito y estación total. Cálculo 
-      de parámetros topográficos y creación de planos con curvas de 
-      nivel 
-      `,
+      levantamientos topográficos con teodolito y estación total.`,
+      `Cálculo de parámetros topográficos y creación de planos con curvas de 
+      nivel.`,
     ],
   },
 ];
@@ -222,8 +221,8 @@ export const eduBasica = [
 export const freeCodeCamp = [
   {
     id: 91,
-    item: 'Diseño Web (FrontEnd y Backend) ',
-    tecnos: `HTML, CSS, Javascript, React, NodeJs y D3js 
+    item: 'Diseño Web (FrontEnd y Backend)',
+    tecnos: `HTML, CSS, Javascript, React, Node.js y D3.js 
   `,
   },
   {
@@ -235,7 +234,7 @@ export const freeCodeCamp = [
   {
     id: 93,
     item: 'Data Analysis',
-    tecnos: `Python, Numpy, Pandas, Matplotlib y Seaborn `,
+    tecnos: `Python, Numpy, pandas, Matplotlib y Seaborn `,
   },
   {
     id: 94,
@@ -260,8 +259,8 @@ export const logosWeb = [
   {
     id: 103,
     logo: logoCss,
-    alt: 'logo Css',
-    nombre: 'Css',
+    alt: 'logo CSS',
+    nombre: 'CSS',
   },
   {
     id: 104,
@@ -272,8 +271,8 @@ export const logosWeb = [
   {
     id: 105,
     logo: logoNode,
-    alt: 'logo Node',
-    nombre: 'Node',
+    alt: 'logo Node.js',
+    nombre: 'Node.js',
   },
   {
     id: 106,

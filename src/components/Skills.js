@@ -30,9 +30,9 @@ const Skills = () => {
           <h3 className="fontd-semibold">
             Programar con las siguientes herramientas
           </h3>
-          <Logos titulo="Web development" logosObject={logosWeb} />
-          <Logos titulo="Data Managment" logosObject={logosData} />
-          <Logos titulo="Base de Datos" logosObject={logosDatabase} />
+          <Logos titulo="Web Development" logosObject={logosWeb} />
+          <Logos titulo="Data Management" logosObject={logosData} />
+          <Logos titulo="Bases de Datos" logosObject={logosDatabase} />
           <Logos titulo="Quality Assurance" logosObject={logosQuality} />
         </div>
       </div>

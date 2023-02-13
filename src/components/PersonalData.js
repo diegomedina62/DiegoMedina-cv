@@ -1,8 +1,7 @@
 const data = [
-  { titulo: 'Fecha de nacimiento: ', texto: '21 de Julio - 1987' },
+  { titulo: 'Fecha de nacimiento: ', texto: '21 de julio de 1987' },
   { titulo: 'Lugar: ', texto: 'Medellín - Colombia' },
   { titulo: 'Profesión: ', texto: 'Ingeniero Civil' },
-  { titulo: 'Edad: ', texto: '35 años' },
   { titulo: 'Residencia: ', texto: 'Buenos Aires - Argentina' },
 ];
 
