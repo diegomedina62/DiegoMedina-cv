@@ -44,9 +44,9 @@ export const linksNavbar = [
 
 export const menuNavbar = [
   { id: 21, text: 'Home', href: '#home' },
-  { id: 22, text: 'Sobre Mí', href: '#about' },
+  { id: 22, text: 'Sobre mí', href: '#about' },
   { id: 26, text: 'Habilidades', href: '#skills' },
-  { id: 23, text: 'Experiencia Profesional', href: '#experiencia' },
+  { id: 23, text: 'Experiencia profesional', href: '#experiencia' },
   { id: 24, text: 'Formación', href: '#formacion' },
 ];
 

@@ -4,7 +4,7 @@ import Rol from './experiencia/Rol';
 const Experiencia = () => {
   return (
     <section id="experiencia">
-      <h1>Experiencia Profesional</h1>
+      <h1>Experiencia profesional</h1>
 
       {/* container de experiencia segun rol */}
       <div className="flex flex-col space-y-10 lg:grid lg:grid-cols-2 lg:items-center">
