@@ -8,7 +8,7 @@ const Experiencia = () => {
 
       {/* container de experiencia segun rol */}
       <div className="flex flex-col space-y-10 lg:grid lg:grid-cols-2 lg:items-center">
-        <Rol titulo="En Ingenieria y Programación" dataObject={expIng} />
+        <Rol titulo="En Ingeniería y Programación" dataObject={expIng} />
         <Rol titulo="En Docencia" dataObject={expDocencia} />
       </div>
     </section>

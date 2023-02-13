@@ -73,7 +73,7 @@ export const cargosAbout = [
   {
     id: 43,
     cargo: 'Programador',
-    texto: `Soy programador web en FrontEnd usando React y en Backend usando Node.js, con fines a desarrollar aplicaciones de manejo y analisis de datos. Uso Python para el tratamiento y analisis de datos y frameworks como D3.js y Seaborn y MatplotLib para la presentacion de resultados`,
+    texto: `Soy programador web en FrontEnd usando React y en Backend usando Node.js, con fines a desarrollar aplicaciones de manejo y análisis de datos. Uso Python para el tratamiento y análisis de datos y frameworks como D3.js y Seaborn y MatplotLib para la presentación de resultados`,
   },
   {
     id: 42,
@@ -95,18 +95,18 @@ export const skillsAbout = [
   {
     id: 52,
     skill: 'Implementar codigos',
-    texto: 'Diseñar algoritmos y llevarlos a codigo para su implementacion',
+    texto: 'Diseñar algoritmos y llevarlos a codigo para su implementación',
   },
   {
     id: 53,
     skill: 'Comunicar',
     texto:
-      'Capacidad de exponer en publico para explicar planes de accion o presentar resultados',
+      'Capacidad de exponer en público para explicar planes de acción o presentar resultados',
   },
   {
     id: 54,
     skill: 'Trabajar en Equipo',
-    texto: 'Uso de Git y de Metodologias Agiles y SCRUM',
+    texto: 'Uso de Git y de Metodologías Agiles y SCRUM',
   },
 ];
 
@@ -114,7 +114,7 @@ export const expIng = [
   {
     id: 61,
     lugar: 'INTEINSA',
-    subtitulo: 'Ingenieria,Tecnologia e Instrumentacion',
+    subtitulo: 'Ingeniería, Tecnología e Instrumentación',
     fechas: '2009-2011',
     funciones: [
       `Creación y programación de la herramienta “MIG”, en VisualBasic 
@@ -133,7 +133,7 @@ export const expIng = [
     drenajes`,
       `Trabajos de estabilización de laderas en punto de anclaje de 
     almenara de conducción de la represa Rio Grande, EPM. Visita de 
-    campo, levantamiento geológico, diseño de soil nailing para 
+    campo, levantamiento geológico, diseño de soil-nailing para 
     estabilización de ladera. 
     `,
       `Proyección de cantidades de obra y análisis de precios unitarios en 
@@ -205,14 +205,14 @@ export const expDocencia = [
 export const eduBasica = [
   {
     id: 81,
-    titulo: `Titulo en Ingeniería Civil`,
-    subtitulo: `Universidad Nacional de Colombia- Sede Medellin`,
+    titulo: `Título en Ingeniería Civil`,
+    subtitulo: `Universidad Nacional de Colombia- Sede Medellín`,
     fechas: `2005-2010`,
     acta: `(Acta No.2067 Libro No.2)`,
   },
   {
     id: 82,
-    titulo: `Titulo Secundario`,
+    titulo: `Título Secundario`,
     subtitulo: `Colegio San José de la Salle`,
     fechas: `2004`,
     acta: `(Acta No.001 Libro No.02 Folio No.68)`,
@@ -322,7 +322,7 @@ export const logosDatabase = [
     id: 131,
     logo: logoMongo,
     alt: 'logo MongoDB',
-    nombre: 'MongaDB',
+    nombre: 'MongoDB',
   },
   {
     id: 132,
