@@ -25,7 +25,7 @@ function Freecodecamp() {
         <ul className="mx-4 list-disc py-2 text-sm lg:mx-8">
           {freeCodeCamp.map((x) => {
             return (
-              <li className="py-1">
+              <li key={x.id} className="py-1">
                 <p className="font-bold">
                   {x.item}
                   <span className="font-normal">: </span>

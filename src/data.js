@@ -309,31 +309,10 @@ export const logosData = [
     nombre: 'Seaborn',
   },
   {
-    id: 113,
+    id: 115,
     logo: logoMat,
     alt: 'logo Matplotlib',
     nombre: 'Matplotlib',
-  },
-];
-
-export const logosDatabase = [
-  {
-    id: 131,
-    logo: logoMongo,
-    alt: 'logo MongoDB',
-    nombre: 'MongoDB',
-  },
-  {
-    id: 132,
-    logo: logoMysql,
-    alt: 'logo MySQL',
-    nombre: 'MySQL',
-  },
-  {
-    id: 132,
-    logo: logoSequelize,
-    alt: 'logo Sequielize',
-    nombre: 'Sequelize',
   },
 ];
 
@@ -349,5 +328,25 @@ export const logosQuality = [
     logo: logoChai,
     alt: 'logo Chai',
     nombre: 'Chai',
+  },
+];
+export const logosDatabase = [
+  {
+    id: 131,
+    logo: logoMongo,
+    alt: 'logo MongoDB',
+    nombre: 'MongoDB',
+  },
+  {
+    id: 132,
+    logo: logoMysql,
+    alt: 'logo MySQL',
+    nombre: 'MySQL',
+  },
+  {
+    id: 133,
+    logo: logoSequelize,
+    alt: 'logo Sequielize',
+    nombre: 'Sequelize',
   },
 ];

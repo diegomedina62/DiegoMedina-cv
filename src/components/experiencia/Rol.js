@@ -23,8 +23,12 @@ const Rol = ({ titulo, dataObject }) => {
               </p>
               {/* componente para "funciones desempeñadas" */}
               <ul className="mx-4 list-disc lg:mx-8">
-                {x.funciones.map((y) => {
-                  return <li className="text-sm">{y}</li>;
+                {x.funciones.map((y, i) => {
+                  return (
+                    <li key={i} className="text-sm">
+                      {y}
+                    </li>
+                  );
                 })}
               </ul>
             </div>

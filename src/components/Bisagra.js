@@ -8,7 +8,7 @@ const Bisagra = () => {
           width="1.25rem"
           height="1.25rem"
         >
-          <circle cx="2" cy="2" r="1.5" stroke-width="0.7" fill="white" />
+          <circle cx="2" cy="2" r="1.5" strokeWidth="0.7" fill="white" />
         </svg>
       </div>
     </div>
