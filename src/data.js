@@ -13,6 +13,7 @@ import logoMysql from './images/logos/logoMysql.svg';
 import logoD3 from './images/logos/logoD3.png';
 import logoSeaborn from './images/logos/logoSeaborn.png';
 import logoMat from './images/logos/logoMat.png';
+import logoSequelize from './images/logos/logoSequelize.svg';
 
 export const linksNavbar = [
   // {
@@ -328,6 +329,12 @@ export const logosDatabase = [
     logo: logoMysql,
     alt: 'logo MySQL',
     nombre: 'MySQL',
+  },
+  {
+    id: 132,
+    logo: logoSequelize,
+    alt: 'logo Sequielize',
+    nombre: 'Sequelize',
   },
 ];
 
